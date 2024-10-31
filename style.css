@@ -1,0 +1,44 @@
+body {
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+form {
+    margin-top: 200px;
+    width: fit-content;
+    background-color: #ffffff40;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #f00;
+}
+
+h1 {
+    color: #f00;
+}
+
+input {
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    background-color: #ff0;
+}
